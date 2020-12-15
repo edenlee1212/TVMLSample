@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2285690A1BF2C22800932673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228569091BF2C22800932673 /* AppDelegate.swift */; };
+		228569111BF2C22800932673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228569101BF2C22800932673 /* Assets.xcassets */; };
+		2285691A1BF2C34800932673 /* ResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228569191BF2C34800932673 /* ResourceLoader.swift */; };
+		2285691C1BF2C35E00932673 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 2285691B1BF2C35E00932673 /* main.js */; };
+		22987B6D1BF5D08200D0468A /* ResourceLoader.js in Resources */ = {isa = PBXBuildFile; fileRef = 22987B6C1BF5D08200D0468A /* ResourceLoader.js */; };
+		22987B6F1BF5DF2E00D0468A /* mustache.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 22987B6E1BF5DF2E00D0468A /* mustache.min.js */; };
+		22987B711BF6C74600D0468A /* teamwork.json in Resources */ = {isa = PBXBuildFile; fileRef = 22987B701BF6C74600D0468A /* teamwork.json */; };
+		22987B771BF6DB0700D0468A /* tv_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 22987B761BF6DB0700D0468A /* tv_background.png */; };
+		22987B791BF70CAA00D0468A /* talk-ray-wenderlich-teamwork.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 22987B781BF70CAA00D0468A /* talk-ray-wenderlich-teamwork.jpeg */; };
+		22987B7E1BF7143600D0468A /* talk-cesare-rocchi-recognition.png in Resources */ = {isa = PBXBuildFile; fileRef = 22987B7A1BF7143600D0468A /* talk-cesare-rocchi-recognition.png */; };
+		22987B7F1BF7143600D0468A /* talk-chris-wagner-craftsmanship.png in Resources */ = {isa = PBXBuildFile; fileRef = 22987B7B1BF7143600D0468A /* talk-chris-wagner-craftsmanship.png */; };
+		22987B801BF7143600D0468A /* talk-ellen-shapiro-starting-over.png in Resources */ = {isa = PBXBuildFile; fileRef = 22987B7C1BF7143600D0468A /* talk-ellen-shapiro-starting-over.png */; };
+		22987B811BF7143600D0468A /* talk-vicki-wenderlich-identity.png in Resources */ = {isa = PBXBuildFile; fileRef = 22987B7D1BF7143600D0468A /* talk-vicki-wenderlich-identity.png */; };
+		22987B831BF71CF500D0468A /* talk-marin-todorov-rw-folklore.png in Resources */ = {isa = PBXBuildFile; fileRef = 22987B821BF71CF500D0468A /* talk-marin-todorov-rw-folklore.png */; };
+		22987B881BF724DE00D0468A /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = 22987B851BF724DE00D0468A /* face.png */; };
+		22987B891BF724DE00D0468A /* heads.png in Resources */ = {isa = PBXBuildFile; fileRef = 22987B861BF724DE00D0468A /* heads.png */; };
+		22987B8A1BF724DE00D0468A /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 22987B871BF724DE00D0468A /* rock.png */; };
+		22987B911BF74DF900D0468A /* rw-folklore.json in Resources */ = {isa = PBXBuildFile; fileRef = 22987B901BF74DF900D0468A /* rw-folklore.json */; };
+		22987B931BF74F1C00D0468A /* craftsmanship.json in Resources */ = {isa = PBXBuildFile; fileRef = 22987B921BF74F1C00D0468A /* craftsmanship.json */; };
+		22987B951BF74F3500D0468A /* recognition.json in Resources */ = {isa = PBXBuildFile; fileRef = 22987B941BF74F3500D0468A /* recognition.json */; };
+		22987B971BF74F4600D0468A /* starting-over.json in Resources */ = {isa = PBXBuildFile; fileRef = 22987B961BF74F4600D0468A /* starting-over.json */; };
+		22987B991BF74F5300D0468A /* identity.json in Resources */ = {isa = PBXBuildFile; fileRef = 22987B981BF74F5300D0468A /* identity.json */; };
+		22B7BE9A1C057B9900D8932E /* video.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 22B7BE991C057B9900D8932E /* video.tvml */; };
+		22B7BE9C1C0584BE00D8932E /* expandedDetailText.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 22B7BE9B1C0584BE00D8932E /* expandedDetailText.tvml */; };
+		22B7BE9E1C0586CF00D8932E /* videoRating.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 22B7BE9D1C0586CF00D8932E /* videoRating.tvml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		228569061BF2C22800932673 /* wenderTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wenderTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		228569091BF2C22800932673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		228569101BF2C22800932673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		228569121BF2C22800932673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		228569191BF2C34800932673 /* ResourceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceLoader.swift; sourceTree = "<group>"; };
+		2285691B1BF2C35E00932673 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		22987B6C1BF5D08200D0468A /* ResourceLoader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ResourceLoader.js; sourceTree = "<group>"; };
+		22987B6E1BF5DF2E00D0468A /* mustache.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mustache.min.js; sourceTree = "<group>"; };
+		22987B701BF6C74600D0468A /* teamwork.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teamwork.json; sourceTree = "<group>"; };
+		22987B761BF6DB0700D0468A /* tv_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tv_background.png; sourceTree = "<group>"; };
+		22987B781BF70CAA00D0468A /* talk-ray-wenderlich-teamwork.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "talk-ray-wenderlich-teamwork.jpeg"; sourceTree = "<group>"; };
+		22987B7A1BF7143600D0468A /* talk-cesare-rocchi-recognition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "talk-cesare-rocchi-recognition.png"; sourceTree = "<group>"; };
+		22987B7B1BF7143600D0468A /* talk-chris-wagner-craftsmanship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "talk-chris-wagner-craftsmanship.png"; sourceTree = "<group>"; };
+		22987B7C1BF7143600D0468A /* talk-ellen-shapiro-starting-over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "talk-ellen-shapiro-starting-over.png"; sourceTree = "<group>"; };
+		22987B7D1BF7143600D0468A /* talk-vicki-wenderlich-identity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "talk-vicki-wenderlich-identity.png"; sourceTree = "<group>"; };
+		22987B821BF71CF500D0468A /* talk-marin-todorov-rw-folklore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "talk-marin-todorov-rw-folklore.png"; sourceTree = "<group>"; };
+		22987B851BF724DE00D0468A /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		22987B861BF724DE00D0468A /* heads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heads.png; sourceTree = "<group>"; };
+		22987B871BF724DE00D0468A /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
+		22987B901BF74DF900D0468A /* rw-folklore.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "rw-folklore.json"; sourceTree = "<group>"; };
+		22987B921BF74F1C00D0468A /* craftsmanship.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = craftsmanship.json; sourceTree = "<group>"; };
+		22987B941BF74F3500D0468A /* recognition.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recognition.json; sourceTree = "<group>"; };
+		22987B961BF74F4600D0468A /* starting-over.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "starting-over.json"; sourceTree = "<group>"; };
+		22987B981BF74F5300D0468A /* identity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = identity.json; sourceTree = "<group>"; };
+		22B7BE991C057B9900D8932E /* video.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = video.tvml; sourceTree = "<group>"; };
+		22B7BE9B1C0584BE00D8932E /* expandedDetailText.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = expandedDetailText.tvml; sourceTree = "<group>"; };
+		22B7BE9D1C0586CF00D8932E /* videoRating.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = videoRating.tvml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		228569031BF2C22800932673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		228568FD1BF2C22800932673 = {
+			isa = PBXGroup;
+			children = (
+				228569081BF2C22800932673 /* wenderTV */,
+				228569071BF2C22800932673 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		228569071BF2C22800932673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				228569061BF2C22800932673 /* wenderTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		228569081BF2C22800932673 /* wenderTV */ = {
+			isa = PBXGroup;
+			children = (
+				228569181BF2C2D800932673 /* App Resources */,
+				228569091BF2C22800932673 /* AppDelegate.swift */,
+				228569191BF2C34800932673 /* ResourceLoader.swift */,
+				228569101BF2C22800932673 /* Assets.xcassets */,
+				228569121BF2C22800932673 /* Info.plist */,
+			);
+			path = wenderTV;
+			sourceTree = "<group>";
+		};
+		228569181BF2C2D800932673 /* App Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22987B9A1BF78AF800D0468A /* layouts */,
+				22987B8D1BF74D2300D0468A /* utilities */,
+				22987B841BF724D300D0468A /* shared */,
+				22987B731BF6CAEB00D0468A /* 3rd Party */,
+				22987B721BF6CAE400D0468A /* content */,
+				2285691B1BF2C35E00932673 /* main.js */,
+			);
+			name = "App Resources";
+			sourceTree = "<group>";
+		};
+		22987B721BF6CAE400D0468A /* content */ = {
+			isa = PBXGroup;
+			children = (
+				22987B8C1BF7491A00D0468A /* data */,
+				22987B8B1BF748F800D0468A /* images */,
+			);
+			name = content;
+			sourceTree = "<group>";
+		};
+		22987B731BF6CAEB00D0468A /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				22987B6E1BF5DF2E00D0468A /* mustache.min.js */,
+			);
+			name = "3rd Party";
+			sourceTree = "<group>";
+		};
+		22987B841BF724D300D0468A /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				22987B761BF6DB0700D0468A /* tv_background.png */,
+				22987B851BF724DE00D0468A /* face.png */,
+				22987B861BF724DE00D0468A /* heads.png */,
+				22987B871BF724DE00D0468A /* rock.png */,
+			);
+			name = shared;
+			sourceTree = "<group>";
+		};
+		22987B8B1BF748F800D0468A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				22987B821BF71CF500D0468A /* talk-marin-todorov-rw-folklore.png */,
+				22987B7A1BF7143600D0468A /* talk-cesare-rocchi-recognition.png */,
+				22987B7B1BF7143600D0468A /* talk-chris-wagner-craftsmanship.png */,
+				22987B7C1BF7143600D0468A /* talk-ellen-shapiro-starting-over.png */,
+				22987B7D1BF7143600D0468A /* talk-vicki-wenderlich-identity.png */,
+				22987B781BF70CAA00D0468A /* talk-ray-wenderlich-teamwork.jpeg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		22987B8C1BF7491A00D0468A /* data */ = {
+			isa = PBXGroup;
+			children = (
+				22987B701BF6C74600D0468A /* teamwork.json */,
+				22987B901BF74DF900D0468A /* rw-folklore.json */,
+				22987B921BF74F1C00D0468A /* craftsmanship.json */,
+				22987B941BF74F3500D0468A /* recognition.json */,
+				22987B961BF74F4600D0468A /* starting-over.json */,
+				22987B981BF74F5300D0468A /* identity.json */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		22987B8D1BF74D2300D0468A /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				22987B6C1BF5D08200D0468A /* ResourceLoader.js */,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
+		22987B9A1BF78AF800D0468A /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+				22B7BE991C057B9900D8932E /* video.tvml */,
+				22B7BE9B1C0584BE00D8932E /* expandedDetailText.tvml */,
+				22B7BE9D1C0586CF00D8932E /* videoRating.tvml */,
+			);
+			name = layouts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		228569051BF2C22800932673 /* wenderTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228569151BF2C22800932673 /* Build configuration list for PBXNativeTarget "wenderTV" */;
+			buildPhases = (
+				228569021BF2C22800932673 /* Sources */,
+				228569031BF2C22800932673 /* Frameworks */,
+				228569041BF2C22800932673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wenderTV;
+			productName = wenderTV;
+			productReference = 228569061BF2C22800932673 /* wenderTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		228568FE1BF2C22800932673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ray Wenderlich";
+				TargetAttributes = {
+					228569051BF2C22800932673 = {
+						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 228569011BF2C22800932673 /* Build configuration list for PBXProject "wenderTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 228568FD1BF2C22800932673;
+			productRefGroup = 228569071BF2C22800932673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				228569051BF2C22800932673 /* wenderTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		228569041BF2C22800932673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B7BE9C1C0584BE00D8932E /* expandedDetailText.tvml in Resources */,
+				22987B6F1BF5DF2E00D0468A /* mustache.min.js in Resources */,
+				22987B791BF70CAA00D0468A /* talk-ray-wenderlich-teamwork.jpeg in Resources */,
+				228569111BF2C22800932673 /* Assets.xcassets in Resources */,
+				22987B831BF71CF500D0468A /* talk-marin-todorov-rw-folklore.png in Resources */,
+				22987B891BF724DE00D0468A /* heads.png in Resources */,
+				22B7BE9E1C0586CF00D8932E /* videoRating.tvml in Resources */,
+				2285691C1BF2C35E00932673 /* main.js in Resources */,
+				22987B881BF724DE00D0468A /* face.png in Resources */,
+				22987B811BF7143600D0468A /* talk-vicki-wenderlich-identity.png in Resources */,
+				22987B7E1BF7143600D0468A /* talk-cesare-rocchi-recognition.png in Resources */,
+				22987B8A1BF724DE00D0468A /* rock.png in Resources */,
+				22987B771BF6DB0700D0468A /* tv_background.png in Resources */,
+				22B7BE9A1C057B9900D8932E /* video.tvml in Resources */,
+				22987B6D1BF5D08200D0468A /* ResourceLoader.js in Resources */,
+				22987B971BF74F4600D0468A /* starting-over.json in Resources */,
+				22987B711BF6C74600D0468A /* teamwork.json in Resources */,
+				22987B931BF74F1C00D0468A /* craftsmanship.json in Resources */,
+				22987B801BF7143600D0468A /* talk-ellen-shapiro-starting-over.png in Resources */,
+				22987B951BF74F3500D0468A /* recognition.json in Resources */,
+				22987B911BF74DF900D0468A /* rw-folklore.json in Resources */,
+				22987B7F1BF7143600D0468A /* talk-chris-wagner-craftsmanship.png in Resources */,
+				22987B991BF74F5300D0468A /* identity.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		228569021BF2C22800932673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2285691A1BF2C34800932673 /* ResourceLoader.swift in Sources */,
+				2285690A1BF2C22800932673 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		228569131BF2C22800932673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		228569141BF2C22800932673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		228569161BF2C22800932673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = wenderTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.wenderTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		228569171BF2C22800932673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = wenderTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.wenderTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		228569011BF2C22800932673 /* Build configuration list for PBXProject "wenderTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228569131BF2C22800932673 /* Debug */,
+				228569141BF2C22800932673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		228569151BF2C22800932673 /* Build configuration list for PBXNativeTarget "wenderTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228569161BF2C22800932673 /* Debug */,
+				228569171BF2C22800932673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 228568FE1BF2C22800932673 /* Project object */;
+}
