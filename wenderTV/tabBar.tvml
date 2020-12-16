@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+  <menuBarTemplate>
+    <menuBar id="menuBar">
+      <menuItem template="home.tvml" action="navigate">
+        <title>Home</title>
+      </menuItem>
+      <menuItem template="search.tvml" action="navigate">
+        <title>Search</title>
+      </menuItem>
+    </menuBar>
+    <img src="resource://heads" />
+  </menuBarTemplate>
+</document>

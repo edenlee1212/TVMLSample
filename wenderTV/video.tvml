@@ -39,11 +39,11 @@
           title="{{title}}">{{description}}</description>
         <text>{{language}}</text>
         <row>
-          <buttonLockup type="play">
+          <buttonLockup type="play" action="playMovie">
             <badge src="resource://button-play" />
             <title>Play</title>
           </buttonLockup>
-          <buttonLockup type="buy">
+          <buttonLockup type="buy" action="buy">
             <text>$9.99</text>
             <title>Buy</title>
           </buttonLockup>

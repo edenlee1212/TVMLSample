@@ -32,6 +32,12 @@
 		22B7BE9A1C057B9900D8932E /* video.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 22B7BE991C057B9900D8932E /* video.tvml */; };
 		22B7BE9C1C0584BE00D8932E /* expandedDetailText.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 22B7BE9B1C0584BE00D8932E /* expandedDetailText.tvml */; };
 		22B7BE9E1C0586CF00D8932E /* videoRating.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 22B7BE9D1C0586CF00D8932E /* videoRating.tvml */; };
+		F25B90CB258992520017721C /* home.tvml in Resources */ = {isa = PBXBuildFile; fileRef = F25B90CA258992520017721C /* home.tvml */; };
+		F25B90CF2589B3960017721C /* loading.tvml in Resources */ = {isa = PBXBuildFile; fileRef = F25B90CE2589B3960017721C /* loading.tvml */; };
+		F25B90D22589B6DA0017721C /* purchase.tvml in Resources */ = {isa = PBXBuildFile; fileRef = F25B90D12589B6DA0017721C /* purchase.tvml */; };
+		F2873375258880E2001EEED2 /* spiderman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2873374258880E2001EEED2 /* spiderman.jpg */; };
+		F28733842588A035001EEED2 /* tabBar.tvml in Resources */ = {isa = PBXBuildFile; fileRef = F28733832588A035001EEED2 /* tabBar.tvml */; };
+		F28733882588A0A2001EEED2 /* search.tvml in Resources */ = {isa = PBXBuildFile; fileRef = F28733872588A0A2001EEED2 /* search.tvml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +68,12 @@
 		22B7BE991C057B9900D8932E /* video.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = video.tvml; sourceTree = "<group>"; };
 		22B7BE9B1C0584BE00D8932E /* expandedDetailText.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = expandedDetailText.tvml; sourceTree = "<group>"; };
 		22B7BE9D1C0586CF00D8932E /* videoRating.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = videoRating.tvml; sourceTree = "<group>"; };
+		F25B90CA258992520017721C /* home.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = home.tvml; sourceTree = "<group>"; };
+		F25B90CE2589B3960017721C /* loading.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = loading.tvml; sourceTree = "<group>"; };
+		F25B90D12589B6DA0017721C /* purchase.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = purchase.tvml; sourceTree = "<group>"; };
+		F2873374258880E2001EEED2 /* spiderman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spiderman.jpg; sourceTree = "<group>"; };
+		F28733832588A035001EEED2 /* tabBar.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tabBar.tvml; sourceTree = "<group>"; };
+		F28733872588A0A2001EEED2 /* search.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = search.tvml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +150,7 @@
 		22987B841BF724D300D0468A /* shared */ = {
 			isa = PBXGroup;
 			children = (
+				F2873374258880E2001EEED2 /* spiderman.jpg */,
 				22987B761BF6DB0700D0468A /* tv_background.png */,
 				22987B851BF724DE00D0468A /* face.png */,
 				22987B861BF724DE00D0468A /* heads.png */,
@@ -184,8 +197,13 @@
 			isa = PBXGroup;
 			children = (
 				22B7BE991C057B9900D8932E /* video.tvml */,
+				F28733872588A0A2001EEED2 /* search.tvml */,
+				F25B90CA258992520017721C /* home.tvml */,
+				F28733832588A035001EEED2 /* tabBar.tvml */,
 				22B7BE9B1C0584BE00D8932E /* expandedDetailText.tvml */,
+				F25B90D12589B6DA0017721C /* purchase.tvml */,
 				22B7BE9D1C0586CF00D8932E /* videoRating.tvml */,
+				F25B90CE2589B3960017721C /* loading.tvml */,
 			);
 			name = layouts;
 			sourceTree = "<group>";
@@ -231,6 +249,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -249,12 +268,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F25B90CB258992520017721C /* home.tvml in Resources */,
 				22B7BE9C1C0584BE00D8932E /* expandedDetailText.tvml in Resources */,
 				22987B6F1BF5DF2E00D0468A /* mustache.min.js in Resources */,
 				22987B791BF70CAA00D0468A /* talk-ray-wenderlich-teamwork.jpeg in Resources */,
 				228569111BF2C22800932673 /* Assets.xcassets in Resources */,
 				22987B831BF71CF500D0468A /* talk-marin-todorov-rw-folklore.png in Resources */,
 				22987B891BF724DE00D0468A /* heads.png in Resources */,
+				F25B90D22589B6DA0017721C /* purchase.tvml in Resources */,
 				22B7BE9E1C0586CF00D8932E /* videoRating.tvml in Resources */,
 				2285691C1BF2C35E00932673 /* main.js in Resources */,
 				22987B881BF724DE00D0468A /* face.png in Resources */,
@@ -265,13 +286,17 @@
 				22B7BE9A1C057B9900D8932E /* video.tvml in Resources */,
 				22987B6D1BF5D08200D0468A /* ResourceLoader.js in Resources */,
 				22987B971BF74F4600D0468A /* starting-over.json in Resources */,
+				F28733842588A035001EEED2 /* tabBar.tvml in Resources */,
 				22987B711BF6C74600D0468A /* teamwork.json in Resources */,
+				F25B90CF2589B3960017721C /* loading.tvml in Resources */,
 				22987B931BF74F1C00D0468A /* craftsmanship.json in Resources */,
 				22987B801BF7143600D0468A /* talk-ellen-shapiro-starting-over.png in Resources */,
 				22987B951BF74F3500D0468A /* recognition.json in Resources */,
 				22987B911BF74DF900D0468A /* rw-folklore.json in Resources */,
 				22987B7F1BF7143600D0468A /* talk-chris-wagner-craftsmanship.png in Resources */,
+				F28733882588A0A2001EEED2 /* search.tvml in Resources */,
 				22987B991BF74F5300D0468A /* identity.json in Resources */,
+				F2873375258880E2001EEED2 /* spiderman.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

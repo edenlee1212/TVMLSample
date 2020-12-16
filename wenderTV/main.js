@@ -58,7 +58,17 @@ function loadInitialDocument(resourceLoader) {
   data = resourceLoader
     .recursivelyConvertFieldsToURLs(data, "image");
   data["sharedImages"] = _sharedImageResources(resourceLoader);
-  return resourceLoader.getDocument("video.tvml", data);
+  return resourceLoader.getDocument("tabBar.tvml", data);
+}
+
+function getResourceData() {
+  var data = resourceLoader.getJSON("identity.json");
+  data["images"] = resourceLoader
+    .convertNamesToURLs(data["images"]);
+  data = resourceLoader
+    .recursivelyConvertFieldsToURLs(data, "image");
+  data["sharedImages"] = _sharedImageResources(resourceLoader);
+  return data;
 }
 
 function _handleEvent(event) {
@@ -67,6 +77,14 @@ function _handleEvent(event) {
   var action = sender.getAttribute("action");
   // 2:
   switch(action) {
+    case "navigate":
+      var template = resourceLoader    .getDocument(sender.getAttribute("template"), getResourceData());
+      template.addEventListener("select", _handleEvent);
+      var menuBarDocument = navigationDocument.documents[0];
+      var menuBar = menuBarDocument.getElementById("menuBar");
+      var feature = menuBar.getFeature('MenuBarDocument');
+      feature.setDocument(template, sender);
+      break;
     case "showOverflow":
       // 3:
       var data = {
@@ -88,6 +106,19 @@ function _handleEvent(event) {
         {title: "Rate Video"});
       navigationDocument.presentModal(ratingDoc);
       break;
+    case "showDetails":
+      var details = resourceLoader.getDocument("video.tvml", getResourceData());
+      details.addEventListener("select", _handleEvent);
+      navigationDocument.pushDocument(details);
+      break;
+    case "playMovie":
+      var loading = resourceLoader.getDocument("loading.tvml", getResourceData());
+      navigationDocument.presentModal(loading);
+      break;
+    case "buy":
+      var loading = resourceLoader.getDocument("purchase.tvml", getResourceData());
+      navigationDocument.presentModal(loading);
+      break;
   }
 }
 
@@ -98,6 +129,7 @@ function _sharedImageResources(resourceLoader) {
     heads: "heads.png",
     face: "face.png",
     rock: "rock.png",
+    spiderman: "spiderman.jpg",
     background: "tv_background.png"
   };
 

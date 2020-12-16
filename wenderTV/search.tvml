@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <searchTemplate>
+    <searchField />
+    <collectionList>
+      <shelf>
+        <header>
+          <title>Most Popular</title>
+        </header>
+        <section>
+          {{#recommendations}}
+            <lockup>
+              <img src="{{image}}" width="402" height="226" />
+              <title>{{title}}</title>
+            </lockup>
+          {{/recommendations}}
+        </section>
+      </shelf>
+    </collectionList>
+  </searchTemplate>
+</document>
